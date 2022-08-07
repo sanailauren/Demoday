@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>JS</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.47">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+
+<p> Please enter password to view the website:</p>
+  <p> Password: <input id="passwordBox" type="password"/>
+  <a href="index.html" onclick="return confirmPassword();">
+    Click Here to Enter Website! </a>
+  </p>
+
+  <script>
+function confirmPassword() {
+  var password = document.getElementById("passwordBox");
+  var passwordText = password.value;
+  if (passwordText === "MaNai"){
+    return true;
+  }
+  alert ("Access denied! Incorrect Password");
+  return false;
+} 
+</script>
+
+</body>
+</html>
