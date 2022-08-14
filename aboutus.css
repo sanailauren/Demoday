@@ -1,6 +1,23 @@
 /* Author: Sanai Farose */
+html {
+    height: 100%;
+}
 body{
     background-color: papayawhip;
+}
+.login {
+    background-image: url('../demoday/images/Budapest.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    background: rgba(255,255,255,.4);
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px black;
+    padding: 20px;
 }
 h1{
     text-align: center;
@@ -8,4 +25,19 @@ h1{
 }
 p{
     font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio {
+    flex: 40% 1 1;
+    padding: 0 20px;
+}
+
+.bio-pic {
+    margin: 10px;
+    width: auto;
 }
