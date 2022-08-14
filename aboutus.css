@@ -6,7 +6,7 @@ body{
     background-color: papayawhip;
 }
 .login {
-    background-image: url('../demoday/images/Budapest.jpeg');
+    background-image: url('images/Budapest.jpeg');
     background-size: cover;
     display: flex;
     flex-direction: column;
